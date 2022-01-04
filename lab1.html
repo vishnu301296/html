@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h1>My First Html Page</h1>
+	
+</body>
+
+<form >
+  <label for="name">Enter your name:</label><br>
+  <input type="text" id="name" name="name" maxlength="25" placeholder="please enter your name" required><br>
+  <br>
+  <label for="EmailID">Email Id:</label><br>
+  <input type="text" id="Email Id" name="EmailID" value="test@example.com" autofocus required><br><br>
+  <br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd" pattern=".{6,}"  required><br>
+  <br>
+  <label for="category">Choose a category:</label>
+  <select id="category" name="Choose a category">
+  <option value="student">Student</option>
+  <option value="employee">Employee</option>
+  <option value="freelancer"selected>Freelancer</option>
+  </select>
+  <br><br>
+  
+  <label for="date">Event Date:</label>
+  <input type="date" name="Startdate" required><br><br>
+  <label for="tickets">Tickets:</label>
+  <input type = "radio" name = "subject" value = "1 ticket"> 1 ticket
+  <input type = "radio" name = "subject" value = "2 tickets"checked> 2 tickets
+  <input type = "radio" name = "subject" value = "3 tickets"> 3 tickets<br><br>
+  <label for="payment">Payment:</label>
+  <input type = "checkbox" name = "subject" value = "payment"> Online payment<br><br>
+  <form action = "" method = "get">
+         Notes: 
+         <br>
+         <textarea rows = "10" cols = "100" name = "description" , placeholder="Enter your notes Here"></textarea>
+
+         <input type = "submit" value = "submit" />
+  </form>
+      
+</form>
